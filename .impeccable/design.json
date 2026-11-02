@@ -1,0 +1,553 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T08:49:40.720Z",
+  "title": "Design System: LIHDAY 德運實業",
+  "extensions": {
+    "colorMeta": {
+      "red": {
+        "role": "primary",
+        "displayName": "Signal Red",
+        "canonical": "oklch(51.9% 0.205 25)",
+        "tonalRamp": [
+          "#200000",
+          "#500006",
+          "#810011",
+          "#bc001e",
+          "#e83f42",
+          "#fe7f78",
+          "#ffbab3",
+          "#fee9e7"
+        ]
+      },
+      "red-deep": {
+        "role": "primary",
+        "displayName": "Pressed Red",
+        "canonical": "oklch(44.7% 0.176 24)",
+        "tonalRamp": [
+          "#200000",
+          "#500006",
+          "#810012",
+          "#b2262c",
+          "#dc504e",
+          "#ff7e78",
+          "#ffb9b4",
+          "#fee9e7"
+        ]
+      },
+      "red-on-dark": {
+        "role": "primary",
+        "displayName": "Lit Red",
+        "canonical": "oklch(59.2% 0.224 22)",
+        "tonalRamp": [
+          "#200001",
+          "#4f000a",
+          "#800118",
+          "#bb0328",
+          "#ef2f42",
+          "#ff7d7c",
+          "#febab6",
+          "#ffe9e7"
+        ]
+      },
+      "red-tint": {
+        "role": "primary",
+        "displayName": "Red Tint",
+        "canonical": "oklch(91.8% 0.043 11)",
+        "tonalRamp": [
+          "#190307",
+          "#381d21",
+          "#57393d",
+          "#79595d",
+          "#9e7c80",
+          "#c4a0a4",
+          "#e8c3c7",
+          "#ffe8ea"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(15.0% 0.002 0)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#262627",
+          "#424243",
+          "#636364",
+          "#868687",
+          "#aaaaac",
+          "#cdcdcf",
+          "#eeeef0"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "oklch(19.2% 0.004 0)",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#262628",
+          "#424244",
+          "#636365",
+          "#868688",
+          "#aaaaad",
+          "#cdcdd0",
+          "#eeeef1"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Ink 3",
+        "canonical": "oklch(23.6% 0.006 286)",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#262629",
+          "#424245",
+          "#636366",
+          "#868689",
+          "#aaaaae",
+          "#cdcdd1",
+          "#eeeef2"
+        ]
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "Dark Hairline",
+        "canonical": "oklch(29.5% 0.007 286)",
+        "tonalRamp": [
+          "#0b0b0e",
+          "#26262a",
+          "#424246",
+          "#636367",
+          "#86868a",
+          "#aaaaaf",
+          "#cdcdd2",
+          "#eeeef3"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "On Dark",
+        "canonical": "oklch(96.7% 0.001 0)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#262627",
+          "#424243",
+          "#636364",
+          "#868687",
+          "#ababab",
+          "#cdcdce",
+          "#eeeeef"
+        ]
+      },
+      "on-dark-2": {
+        "role": "neutral",
+        "displayName": "On Dark Muted",
+        "canonical": "oklch(73.8% 0.013 286)",
+        "tonalRamp": [
+          "#0b0a10",
+          "#26262d",
+          "#424149",
+          "#62626a",
+          "#85858e",
+          "#aaaab3",
+          "#cdcdd6",
+          "#ededf7"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(100.0% 0.000 0)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#262626",
+          "#424242",
+          "#636363",
+          "#868686",
+          "#ababab",
+          "#cecece",
+          "#eeeeee"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Paper 2",
+        "canonical": "oklch(96.7% 0.001 0)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#262627",
+          "#424243",
+          "#636364",
+          "#868687",
+          "#ababab",
+          "#cdcdce",
+          "#eeeeef"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(90.5% 0.005 286)",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#262629",
+          "#424245",
+          "#636366",
+          "#868689",
+          "#aaaaae",
+          "#cdcdd1",
+          "#eeeef2"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Text",
+        "canonical": "oklch(19.2% 0.004 0)",
+        "tonalRamp": [
+          "#0b0b0d",
+          "#262628",
+          "#424244",
+          "#636365",
+          "#868688",
+          "#aaaaad",
+          "#cdcdd0",
+          "#eeeef1"
+        ]
+      },
+      "text-2": {
+        "role": "neutral",
+        "displayName": "Text Muted",
+        "canonical": "oklch(45.2% 0.013 286)",
+        "tonalRamp": [
+          "#0b0a10",
+          "#26262d",
+          "#414149",
+          "#62626a",
+          "#85858e",
+          "#aaaab3",
+          "#cdcdd6",
+          "#ededf7"
+        ]
+      },
+      "disabled": {
+        "role": "neutral",
+        "displayName": "Disabled",
+        "canonical": "oklch(70.8% 0.012 286)",
+        "tonalRamp": [
+          "#0b0a10",
+          "#26262c",
+          "#424248",
+          "#62626a",
+          "#85858d",
+          "#aaaab2",
+          "#cdcdd5",
+          "#ededf6"
+        ]
+      },
+      "ember": {
+        "role": "neutral",
+        "displayName": "Ember",
+        "canonical": "oklch(23.3% 0.077 17)",
+        "tonalRamp": [
+          "#200003",
+          "#451219",
+          "#653033",
+          "#8a5053",
+          "#b07376",
+          "#d79799",
+          "#fcbabc",
+          "#fee9e9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero heading only, three hand-broken lines."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Every section heading, two lines."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "Single words that stand as content: process step names, company values (to 3.5rem)."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "The phone number in the contact section."
+      },
+      "title-lg": {
+        "displayName": "Title Large",
+        "purpose": "Headline sentence inside a scenario panel."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Item names in ruled grids and rails."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "The one muted paragraph beside or under a section heading; max 34em."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; tabular numerals."
+      },
+      "body-sm": {
+        "displayName": "Body Small",
+        "purpose": "Item descriptions, header nav at weight 500, footer."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Terms in fact lists and the footer base line."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Labels of red buttons and the call bar."
+      }
+    },
+    "shadows": [
+      {
+        "name": "floating-call-bar",
+        "value": "0 10px 28px -8px rgba(0, 0, 0, 0.55)",
+        "purpose": "Mobile call bar only; the single element fixed above scrolling content that casts a shadow."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "CSS easing for every state change (--ease-out)."
+      },
+      {
+        "name": "expo-out",
+        "value": "expo.out",
+        "purpose": "GSAP easing for entrances: masked lines, fades, cell fills, digits."
+      },
+      {
+        "name": "expo-in-out",
+        "value": "expo.inOut",
+        "purpose": "Iris opening on load and the service grid wipe."
+      },
+      {
+        "name": "back-out",
+        "value": "back.out(1.8) to back.out(2.4)",
+        "purpose": "Small round marks popping in: process dots, the call mark."
+      },
+      {
+        "name": "duration-state",
+        "value": "0.25s",
+        "purpose": "Button and control colour changes."
+      },
+      {
+        "name": "duration-hover",
+        "value": "0.35s to 0.45s",
+        "purpose": "Line draws, icon tile fills, tab changes."
+      },
+      {
+        "name": "duration-sheet",
+        "value": "0.5s to 0.6s",
+        "purpose": "Header hide, mobile menu wipe, call bar slide."
+      },
+      {
+        "name": "duration-entrance",
+        "value": "0.9s to 1.2s",
+        "purpose": "Scroll entrances; stagger 0.07s to 0.1s."
+      },
+      {
+        "name": "line-rise",
+        "value": "yPercent 110 to 0, 1.1s, stagger 0.1s",
+        "purpose": "Heading lines rising out of their masks."
+      },
+      {
+        "name": "scrub",
+        "value": "0.5 to 0.6",
+        "purpose": "Scroll-linked motion: iris stopping down, process rail, values list."
+      },
+      {
+        "name": "smooth-scroll",
+        "value": "Lenis lerp 0.11",
+        "purpose": "Page scroll smoothing; off under reduced motion or ?static."
+      },
+      {
+        "name": "marquee",
+        "value": "48s linear infinite",
+        "purpose": "Brand logo marquee; pauses on hover, static under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "nav-collapse",
+        "value": "1023px"
+      },
+      {
+        "name": "stack",
+        "value": "899px"
+      },
+      {
+        "name": "mobile",
+        "value": "767px"
+      },
+      {
+        "name": "rail-touch",
+        "value": "599px"
+      },
+      {
+        "name": "single-column",
+        "value": "559px"
+      },
+      {
+        "name": "narrow",
+        "value": "479px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Call Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main action on every surface: red fill, phone icon, label and the number in Archivo digits.",
+      "html": "<a class=\"ds-btn-red\" href=\"tel:+88633630858\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z\"/></svg>來電洽詢 <span class=\"ds-btn-num\">03-363-0858</span></a>",
+      "css": ".ds-btn-red { font-family: var(--font, 'Archivo Variable', 'Noto Sans TC Variable', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif); display: inline-flex; align-items: center; gap: 0.625rem; min-height: 56px; padding: 0 1.5rem; border-radius: var(--radius, 4px); background: var(--red, #c30d23); color: #fff; font-weight: 700; font-size: 1.0625rem; line-height: 1; letter-spacing: 0.02em; white-space: nowrap; text-decoration: none; font-variant-numeric: tabular-nums; transition: background-color 0.25s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 0.25s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-btn-red:hover { background: var(--red-deep, #9f0a1c); } .ds-btn-red:active { transform: translateY(1px); } .ds-btn-red:focus-visible { outline: 2px solid var(--red, #c30d23); outline-offset: 3px; border-radius: 2px; } .ds-btn-num { font-size: 1.1875rem; font-weight: 700; }"
+    },
+    {
+      "name": "Arrow Link",
+      "kind": "button",
+      "refersTo": "link-arrow",
+      "description": "Secondary action beside a primary button: bold text, 1px underline, arrow that slides on hover. Shown on ink.",
+      "html": "<div class=\"ds-link-stage\"><a class=\"ds-link-arrow\" href=\"#solutions\">看解決方案 <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a></div>",
+      "css": ".ds-link-stage { background: var(--ink, #0b0b0c); color: var(--on-dark, #f4f4f5); padding: 24px; } .ds-link-arrow { font-family: var(--font, 'Archivo Variable', 'Noto Sans TC Variable', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif); display: inline-flex; align-items: center; gap: 0.5rem; min-height: 44px; font-weight: 700; letter-spacing: 0.02em; color: inherit; text-decoration: none; background: linear-gradient(currentColor, currentColor) 0 calc(100% - 8px) / 100% 1px no-repeat; } .ds-link-arrow svg { transition: transform 0.4s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-link-arrow:hover svg { transform: translateX(4px); } .ds-link-arrow:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Rail Buttons",
+      "kind": "button",
+      "refersTo": "rail-button",
+      "description": "Previous and next controls for the product rail; outlined squares that fill red on hover and grey out at the ends.",
+      "html": "<div class=\"ds-rail-ctrl\"><button class=\"ds-rail-btn\" type=\"button\" disabled aria-label=\"上一組產品\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M19 12H5M11 6l-6 6 6 6\"/></svg></button><button class=\"ds-rail-btn\" type=\"button\" aria-label=\"下一組產品\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button></div>",
+      "css": ".ds-rail-ctrl { display: flex; gap: 8px; } .ds-rail-btn { display: grid; place-items: center; width: 56px; height: 56px; padding: 0; background: none; color: var(--text, #141416); border: 1px solid var(--text, #141416); border-radius: var(--radius, 4px); cursor: pointer; transition: background-color 0.25s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 0.25s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), border-color 0.25s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-rail-btn:hover:not(:disabled) { background: var(--red, #c30d23); border-color: var(--red, #c30d23); color: #fff; } .ds-rail-btn:disabled { border-color: var(--line, #dfdfe3); color: #a0a0a8; cursor: default; } .ds-rail-btn:focus-visible { outline: 2px solid var(--red, #c30d23); outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Fixed 72px paper header: links draw a 3px red bar from the left on hover; compact red phone button at the right.",
+      "html": "<div class=\"ds-header\"><nav class=\"ds-header-nav\"><a href=\"#services\">服務項目</a><a href=\"#solutions\">解決方案</a><a href=\"#products\">立岱產品</a></nav><a class=\"ds-header-tel\" href=\"tel:+88633630858\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z\"/></svg><span>03-363-0858</span></a></div>",
+      "css": ".ds-header { font-family: var(--font, 'Archivo Variable', 'Noto Sans TC Variable', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif); display: flex; align-items: center; gap: 36px; height: 72px; padding: 0 24px; background: var(--paper, #fff); color: var(--text, #141416); border-bottom: 1px solid var(--line, #dfdfe3); letter-spacing: 0.02em; } .ds-header-nav { display: flex; gap: 36px; margin-left: auto; font-weight: 500; font-size: 0.9375rem; } .ds-header-nav a { position: relative; display: flex; align-items: center; height: 72px; white-space: nowrap; color: inherit; text-decoration: none; } .ds-header-nav a::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; background: var(--red, #c30d23); transform: scaleX(0); transform-origin: left; transition: transform 0.4s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-header-nav a:hover::after, .ds-header-nav a:focus-visible::after { transform: scaleX(1); } .ds-header-tel { display: inline-flex; align-items: center; gap: 0.625rem; min-height: 44px; padding: 0 1.125rem; border-radius: var(--radius, 4px); background: var(--red, #c30d23); color: #fff; font-weight: 700; font-size: 1.1875rem; line-height: 1; text-decoration: none; font-variant-numeric: tabular-nums; transition: background-color 0.25s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-header-tel:hover { background: var(--red-deep, #9f0a1c); } .ds-header a:focus-visible { outline: 2px solid var(--red, #c30d23); outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Ruled Service Cells",
+      "kind": "card",
+      "refersTo": "icon-tile",
+      "description": "Repeating content as cells between hairlines, opened by a text-colour rule. The icon tile turns solid red when its cell is hovered.",
+      "html": "<ul class=\"ds-cells\"><li class=\"ds-cell\"><span class=\"ds-cell-icon\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 8.5 16 5l1.8 5.6L5.8 14zM17.8 10.6l2.7-.8M8 13.4V18H4M4 16v4\"/></svg></span><h3>數位遠端監控系統</h3><p>現場影像的即時監看、錄影與回放。</p></li><li class=\"ds-cell\"><span class=\"ds-cell-icon\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 19c-1-2-1.5-4-1.5-7a6.5 6.5 0 0 1 13 0c0 2 .2 4 .8 6M9.5 20c-.7-2.5-1-5-1-8a3.5 3.5 0 0 1 7 0c0 3 .4 5.6 1.2 8M12 12c0 3 .3 5.6 1 8\"/></svg></span><h3>生物辨識門禁管控系統</h3><p>以生物特徵辨識身分，管制人員進出。</p></li></ul>",
+      "css": ".ds-cells { font-family: var(--font, 'Archivo Variable', 'Noto Sans TC Variable', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif); display: grid; grid-template-columns: repeat(2, 1fr); margin: 0; padding: 0; list-style: none; background: var(--paper, #fff); color: var(--text, #141416); border-top: 1px solid var(--text, #141416); letter-spacing: 0.02em; } .ds-cell { padding: 32px 32px 36px 0; border-bottom: 1px solid var(--line, #dfdfe3); } .ds-cell + .ds-cell { padding-left: 32px; border-left: 1px solid var(--line, #dfdfe3); } .ds-cell-icon { display: grid; place-items: center; width: 52px; height: 52px; border-radius: var(--radius, 4px); background: var(--paper-2, #f4f4f5); color: var(--red, #c30d23); transition: background-color 0.35s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 0.35s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-cell:hover .ds-cell-icon { background: var(--red, #c30d23); color: #fff; } .ds-cell h3 { margin: 22px 0 0; font-size: 1.25rem; font-weight: 700; line-height: 1.4; } .ds-cell p { margin: 8px 0 0; font-size: 0.9375rem; line-height: 1.8; color: var(--text-2, #55555d); }"
+    },
+    {
+      "name": "Scenario Tabs",
+      "kind": "custom",
+      "refersTo": "tab",
+      "description": "Vertical tab rows on ink. The active row turns white, draws a 2px lit-red underline and shows a red arrow.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-orientation=\"vertical\"><button class=\"ds-tab ds-tab-active\" role=\"tab\" type=\"button\" aria-selected=\"true\"><span>銀行</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button><button class=\"ds-tab\" role=\"tab\" type=\"button\" aria-selected=\"false\"><span>校園</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button><button class=\"ds-tab\" role=\"tab\" type=\"button\" aria-selected=\"false\"><span>醫院</span><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button></div>",
+      "css": ".ds-tabs { font-family: var(--font, 'Archivo Variable', 'Noto Sans TC Variable', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif); background: var(--ink, #0b0b0c); padding: 0 24px 24px; border-top: 1px solid var(--line-dark, #2c2c30); } .ds-tab { position: relative; display: flex; align-items: center; justify-content: space-between; width: 100%; min-height: 84px; padding: 0; background: none; border: 0; border-bottom: 1px solid var(--line-dark, #2c2c30); color: var(--on-dark-2, #a9a9b2); text-align: left; cursor: pointer; font: inherit; transition: color 0.35s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-tab::before { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: var(--red-on-dark, #e5203a); transform: scaleX(0); transform-origin: left; transition: transform 0.6s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-tab span { font-size: 2rem; font-weight: 800; line-height: 1.2; } .ds-tab svg { opacity: 0; transform: translateX(-12px); transition: opacity 0.35s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), transform 0.45s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-tab:hover, .ds-tab-active { color: var(--on-dark, #f4f4f5); } .ds-tab-active::before { transform: scaleX(1); } .ds-tab-active svg { opacity: 1; transform: none; color: var(--red-on-dark, #e5203a); } .ds-tab:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }"
+    },
+    {
+      "name": "Process Rail",
+      "kind": "custom",
+      "refersTo": "statement",
+      "description": "Ordered steps on the pale ground: red dot, a 2px line the scroll fills with red, step number, name in statement type.",
+      "html": "<ol class=\"ds-steps\"><li class=\"ds-step\"><div class=\"ds-step-rail\"><span class=\"ds-step-dot\"></span><span class=\"ds-step-line\"><span></span></span></div><p class=\"ds-step-num\">01</p><h3>規劃</h3><p class=\"ds-step-desc\">先了解場域與需求。</p></li><li class=\"ds-step\"><div class=\"ds-step-rail\"><span class=\"ds-step-dot\"></span><span class=\"ds-step-line\"><span class=\"ds-step-half\"></span></span></div><p class=\"ds-step-num\">02</p><h3>施工</h3><p class=\"ds-step-desc\">掌握品質與進度。</p></li></ol>",
+      "css": ".ds-steps { font-family: var(--font, 'Archivo Variable', 'Noto Sans TC Variable', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif); display: grid; grid-template-columns: repeat(2, 1fr); margin: 0; padding: 32px 0 32px 24px; list-style: none; background: var(--paper-2, #f4f4f5); color: var(--text, #141416); letter-spacing: 0.02em; overflow: hidden; } .ds-step { padding-right: 40px; } .ds-step-rail { display: flex; align-items: center; height: 16px; margin-right: -40px; } .ds-step-dot { flex: none; width: 16px; height: 16px; border-radius: 50%; background: var(--red, #c30d23); } .ds-step-line { flex: 1; height: 2px; background: var(--line, #dfdfe3); } .ds-step-line > span { display: block; height: 100%; background: var(--red, #c30d23); transform-origin: left; } .ds-step-half { transform: scaleX(0.4); } .ds-step-num { margin: 28px 0 0; font-size: 0.9375rem; font-weight: 600; color: var(--red, #c30d23); letter-spacing: 0.08em; font-variant-numeric: tabular-nums; } .ds-step h3 { margin: 0; font-size: 2.75rem; font-weight: 900; line-height: 1.3; letter-spacing: 0.02em; } .ds-step-desc { margin: 12px 0 0; line-height: 1.8; color: var(--text-2, #55555d); }"
+    },
+    {
+      "name": "Product Plate",
+      "kind": "card",
+      "refersTo": "product-plate",
+      "description": "Rail item: square pale plate with the photo multiplied into it, model number and one-line description below.",
+      "html": "<div class=\"ds-product\"><figure class=\"ds-product-img\"><img src=\"/img/products/ld-205bs.jpg\" alt=\"立岱 LD-205BS\" width=\"500\" height=\"500\"></figure><h3>LD-205BS</h3><p>AHD 攝影機｜200 萬畫素星光級彩色攝影機</p></div>",
+      "css": ".ds-product { font-family: var(--font, 'Archivo Variable', 'Noto Sans TC Variable', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif); width: 260px; color: var(--text, #141416); } .ds-product-img { margin: 0; aspect-ratio: 1; background: var(--paper-2, #f4f4f5); border-radius: var(--radius, 4px); overflow: hidden; } .ds-product-img img { display: block; width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; transition: transform 0.7s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-product:hover .ds-product-img img { transform: scale(1.06); } .ds-product h3 { margin: 18px 0 0; font-size: 1.375rem; font-weight: 700; line-height: 1.4; letter-spacing: 0.01em; } .ds-product p { margin: 4px 0 0; font-size: 0.9375rem; line-height: 1.65; letter-spacing: 0.02em; color: var(--text-2, #55555d); }"
+    },
+    {
+      "name": "Call Line",
+      "kind": "custom",
+      "refersTo": "numeral",
+      "description": "The phone number as one link across the red contact section, between two translucent rules, with a round call mark.",
+      "html": "<a class=\"ds-call\" href=\"tel:+88633630858\" aria-label=\"撥打 03-363-0858\"><span class=\"ds-call-digits\" aria-hidden=\"true\">03-363-0858</span><span class=\"ds-call-go\" aria-hidden=\"true\"><svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z\"/></svg></span></a>",
+      "css": ".ds-call { font-family: var(--font, 'Archivo Variable', 'Noto Sans TC Variable', 'PingFang TC', 'Microsoft JhengHei', system-ui, sans-serif); display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 20px 24px; background: var(--red, #c30d23); color: #fff; text-decoration: none; box-shadow: inset 0 1px rgba(255, 255, 255, 0.45), inset 0 -1px rgba(255, 255, 255, 0.45); } .ds-call-digits { font-size: clamp(2.5rem, 9.6vw, 6rem); font-weight: 800; line-height: 1.1; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; } .ds-call-go { display: grid; place-items: center; flex: none; width: 80px; height: 80px; border-radius: 50%; background: #fff; color: var(--red, #c30d23); transition: transform 0.5s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), background-color 0.3s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)), color 0.3s var(--ease-out, cubic-bezier(0.16, 1, 0.3, 1)); } .ds-call:hover .ds-call-go { transform: scale(1.08) rotate(-12deg); background: var(--ink, #0b0b0c); color: #fff; } .ds-call:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Open Aperture",
+    "overview": "The site is the category-standard security-contractor homepage, built carefully: a white header with a red phone button, a black hero, alternating white, pale-grey and black sections, and one full-red section that holds the phone number. Nothing about the structure is experimental. The character comes from how plainly it is drawn: content sits in grids ruled with 1px hairlines instead of cards, headings are very heavy Traditional Chinese set in two short lines, and red is the only colour that is not black, white or grey.\n\nThe one drawn object is a camera lens in SVG. Its iris opens when the page loads, stops down as the hero scrolls away, and its glass drifts against the pointer. Everything else moves in the same grammar: headings rise line by line out of a mask, grids are ruled before their cells fill, the process rail is drawn by the scroll, and the phone number is dialled in digit by digit. Motion eases with expo-out (`cubic-bezier(0.16, 1, 0.3, 1)`) and settles; the page renders fully still under `prefers-reduced-motion` or `?static`.\n\nDensity is moderate and even. Sections breathe at `clamp(72px, 10vw, 144px)`, text columns stop near 34em, and every section ends closer to the phone call than it began.",
+    "keyCharacteristics": [
+      "Three grounds only: ink black, paper white with pale grey, and one full-red contact section.",
+      "Hairline-ruled grids and lists carry structure; no bordered or shadowed card containers.",
+      "Heavy CJK headings (weight 800 to 900) broken into deliberate lines, each line its own mask.",
+      "One radius (4px) for every rectangle; circles only for marks.",
+      "The phone number is always the primary action and always red or on red.",
+      "A single drawn lens stands in for photography the project does not have."
+    ],
+    "rules": [
+      {
+        "name": "The Two Reds Rule",
+        "body": "`red` is for light grounds and for fills. On ink, red text and red marks use `red-on-dark`. A red-filled button keeps `red` on any ground because its label is white.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Red Room Rule",
+        "body": "Red becomes a section ground exactly once, in the contact section. Everywhere else it is a mark: a button, a glyph, a dot, a line, one emphasised word.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Grounds Rule",
+        "body": "A section is ink, paper (white or `paper-2`), or the red room. No tinted, gradient or image grounds; the hero's ember glow is light from the lens, not a ground.",
+        "section": "colors"
+      },
+      {
+        "name": "The Written Line Rule",
+        "body": "Display and headline text is broken into lines by hand in the markup, two for a section and three for the hero. Each line is its own masked block so it can rise on entry. Do not let a heading wrap wherever the viewport decides.",
+        "section": "typography"
+      },
+      {
+        "name": "The Phrase Break Rule",
+        "body": "Chinese headings and leads break at phrase boundaries (`word-break: auto-phrase`), paragraphs use `text-wrap: pretty`, headings `balance`.",
+        "section": "typography"
+      },
+      {
+        "name": "The Weight Ladder Rule",
+        "body": "900 for display and statements, 800 for headlines, 700 for titles and actions, 500 for navigation and list facts, 400 for reading. Size alone never separates two levels.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Ground Rule",
+        "body": "Nothing in the page flow casts a shadow. A shadow is allowed only on an element that is fixed above scrolling content. Stacking order is fixed: content, call bar (40), header and menu (50), skip link (100).",
+        "section": "elevation"
+      },
+      {
+        "name": "The Lens Is the Only Depth Rule",
+        "body": "Gradients, bevels, glare and parallax belong to the drawn lens and the ember glow behind it. Interface surfaces stay solid.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** make the phone number the primary action of every surface: a Signal Red button with the phone icon and the digits.",
+      "**Do** switch to `red-on-dark` for red text and marks on ink, and keep it to large text and graphics (it measures about 4.3:1 on ink).",
+      "**Do** build repeating content as ruled cells: a 1px text-colour rule to open, 1px hairlines between, first column flush with the column edge.",
+      "**Do** write section headings as two short lines at weight 800 and wrap each line in its own mask.",
+      "**Do** use 4px for every rectangle and full circles only for dots and round marks.",
+      "**Do** ease state changes and entrances with `cubic-bezier(0.16, 1, 0.3, 1)` or `expo.out`; keep overshoot (`back.out`) for small round marks popping in.",
+      "**Do** keep every animated surface complete and readable when motion is off.",
+      "**Do** place product photos on `paper-2` plates with multiply blending, and show partner logos as supplied."
+    ],
+    "donts": [
+      "**Don't** use red as a section ground outside the contact section.",
+      "**Don't** put `red` text or thin red marks on ink; that is what `red-on-dark` is for.",
+      "**Don't** wrap content in bordered, shadowed or rounded card containers.",
+      "**Don't** add shadows to anything in the page flow.",
+      "**Don't** introduce a second typeface or a second accent colour.",
+      "**Don't** use radii between 4px and a full circle, or pill-shaped buttons.",
+      "**Don't** use stock scene photography; where there is no real photo, the drawn lens or a ruled grid of facts carries the space.",
+      "**Don't** apply gradients, glare or parallax to interface surfaces; they belong to the lens."
+    ]
+  }
+}

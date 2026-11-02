@@ -1,0 +1,38 @@
+{
+ "title": "選擇首頁的視覺世界",
+ "question": "骰到的方向是「設備銘牌」。可以保留、改選其他方向，或重新擲一次。",
+ "options": [
+  {"id":"assigned","label":"設備銘牌","kicker":"THE ROLL","lineage":"鎖在每台機櫃上的黑色陽極鋁銘牌",
+   "thesis":"整個首頁就是一塊鎖在現場四十年的銘牌：欄位、刻字、紅色填漆。",
+   "palette":["#0b0b0c","#141416","#c8102e","#ece8e1","#8b8d90"],
+   "materials":["黑色陽極鋁","雷射刻字","紅色填漆","螺絲孔"],
+   "viewport":"一整塊銘牌佔滿畫面：左側刻上超大標題，右側是由 Logo 鏡頭變成的光圈，底部一條紅色欄位帶擠滿服務項目與超大電話號碼。",
+   "risk":"欄位太多時會像規格表而不像品牌；擬真螺絲做過頭會顯得俗氣。",
+   "raised":[
+    {"from":"challenger-obi","raise":"密度對撞：幾乎空白的銘牌正面只放一顆鏡頭，對上一條塞滿資訊的紅色欄位帶。"},
+    {"from":"challenger-step","raise":"規劃、施工、維護排成一條不斷行的序列，一顆走動的指示燈永遠標出「現在」。"},
+    {"from":"challenger-understory","raise":"游標就是光源：滑過刻字時，金屬面跟著反光。"},
+    {"from":"challenger-ikeda","raise":"所有數字一律等寬對齊成欄，沒有例外。"},
+    {"from":"challenger-teletext","raise":"每個段落都有欄位編號，可用編號直達。"}
+   ],
+   "html":".impeccable/mocks/decision/assigned.html"},
+  {"id":"model-pick","label":"弱電配置圖","kicker":"IMPECCABLE’S PICK","lineage":"工程商交給業主的攝影機配置平面圖",
+   "thesis":"首頁是一張正在畫的配置圖：攝影機落點、紅色視角扇形，把死角一塊塊蓋掉。",
+   "palette":["#0a0a0b","#3b3b40","#c8102e","#ece8e1"],
+   "materials":["細線平面圖","紅色視角扇形","圖例與圖號"],
+   "viewport":"全螢幕平面圖線稿，紅色視角扇形緩慢掃過；左下超大標題，右下紅色超大電話。",
+   "risk":"藍圖線稿加科技感，是這個產業最多人會做的方向。",
+   "html":".impeccable/mocks/decision/model-pick.html"},
+  {"id":"challenger-obi","label":"唱片腰帶","verdict":"declined","lineage":"東京唱片封套的紙腰帶","thesis":"空白封面對上擠滿字的腰帶。","palette":["#c8102e","#f1ece2","#0b0b0c"],"materials":["紙腰帶","直排密字"],"viewport":"封面只有一個幾何標誌，下方三分之一是密字腰帶。","risk":"採購決策者不會把唱片封套和工程商聯想在一起。","case":"對象認同與清楚度都輸給銘牌。","kept":"密度對撞的構圖。","hero":"https://impeccable.style/worlds/cards/posters-covers-sleeves-shibuya-boutique-sleeve-hero.webp"},
+  {"id":"challenger-step","label":"節奏機步進列","verdict":"declined","lineage":"80 年代鼓機的十六步按鍵","thesis":"一條不換行的步進列，跑馬燈標出現在。","palette":["#2a2a2c","#d8232a","#f08a24","#f4d03f","#f1f1f1"],"materials":["炭黑面板","糖果色按鍵","LED"],"viewport":"十六顆按鍵橫貫畫面，上方是速度讀數。","risk":"玩具感與安防的可靠感衝突。","case":"兩個面向都輸；流程序列的紀律值得留下。","kept":"一條不斷行的序列與「現在」指示燈。","hero":"https://impeccable.style/worlds/cards/signals-instruments-drum-machine-step-row-hero.webp"},
+  {"id":"challenger-understory","label":"螢光林下","verdict":"declined","lineage":"入夜後會發光的異星森林","thesis":"注意力本身就是光源。","palette":["#07090a","#5fe3e0","#b9a4ff","#bfe9a8"],"materials":["孢子光","脈動根脈"],"viewport":"近黑地面上，路徑在游標前方兩步亮起。","risk":"夢幻感與務實誠信的語氣不合，且違反紅黑品牌色。","case":"兩個面向都輸。","kept":"游標靠近才亮起的光照模型。","hero":"https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-luminescent-alien-understory-hero.webp"},
+  {"id":"challenger-ikeda","label":"資料條碼場","verdict":"declined","lineage":"純黑白的條碼與正弦資料場","thesis":"資料密度本身就是景觀。","palette":["#000000","#ffffff"],"materials":["髮絲細線","等寬數字"],"viewport":"整面黑白直條，邊欄擠滿等寬數字。","risk":"沒有紅色，訪客也看不出這是在賣什麼。","case":"兩個面向都輸，且與紅黑品牌色衝突。","kept":"等寬數字成欄的紀律。","hero":"https://impeccable.style/worlds/cards/ikeda-datamatics-hero.webp"},
+  {"id":"challenger-teletext","label":"文字廣播頁","verdict":"declined","lineage":"電視文字廣播的馬賽克頁面","thesis":"一切以三位數頁碼定址。","palette":["#000000","#ff0000","#ffff00","#00ffff","#ffffff"],"materials":["字元格","馬賽克色塊"],"viewport":"固定字元格上的雙倍高標題與色塊圖示。","risk":"復古趣味蓋過現代與可靠。","case":"兩個面向都輸。","kept":"以編號定址每個段落。","hero":"https://impeccable.style/worlds/cards/digital-design-canon-teletext-weather-mosaic-hero.webp"},
+  {"id":"challenger-jacquard","label":"提花織錦","verdict":"declined","lineage":"打孔卡驅動的提花織機","thesis":"成千上萬個二元選擇織成一隻金鳥。","palette":["#0f1a3a","#c9a23a","#efe6cf","#0a0a0d"],"materials":["午夜藍絲","金色緯線","打孔卡"],"viewport":"上方是打孔指令列，下方金線逐漸織成圖案。","risk":"藍金配色違反紅黑品牌色，題材離安防太遠。","case":"兩個面向都輸。","kept":"整體與單一元件之間可逐層追溯。","hero":"https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-jacquard-punched-brocade-hero.webp"}
+ ],
+ "reroll":{"registers":["safer","bolder"]},
+ "buildPath":{"value":"code"},
+ "canon":true,
+ "canonCard":{"label":"業界標準版","thesis":"安防業官網最常見的樣子，認真做到位。","palette":["#0c0c0d","#18181a","#c8102e","#ffffff"],"materials":["乾淨格線","產品攝影"],"viewport":"左標題與按鈕、右大圖，下方三張服務卡片。","risk":"刻意與同業長得一樣。","html":".impeccable/mocks/decision/canon.html"},
+ "steer":true
+}
